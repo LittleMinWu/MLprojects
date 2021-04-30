@@ -1,0 +1,7 @@
+Label1 = mlines.Line2D([], [], color='red', marker='o', linestyle='None',
+                          markersize=7, label='Original Data')
+Label2 = mlines.Line2D([], [], color='blue', marker='o', linestyle='None',
+                          markersize=7, label='Lasso Reg')
+
+plt.legend(handles=[Label1, Label2], loc='upper right')
+plt.show()
